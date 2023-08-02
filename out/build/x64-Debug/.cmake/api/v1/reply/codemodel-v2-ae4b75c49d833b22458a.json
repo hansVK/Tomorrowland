@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TOMORROWLAND",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TOMORROWLAND::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TOMORROWLAND-Debug-b5e3af69a6282eaa49bc.json",
+					"name" : "TOMORROWLAND",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/hansA/Documents/Hans_Actual/2022-2023/1e-Semester/-Object-Oriented-Programming/max/out/build/x64-Debug",
+		"source" : "C:/Users/hansA/Documents/Hans_Actual/2022-2023/1e-Semester/-Object-Oriented-Programming/max"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

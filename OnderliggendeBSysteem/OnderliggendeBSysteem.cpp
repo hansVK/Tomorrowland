@@ -1601,13 +1601,13 @@ inline void OnderliggendeBSysteem::outputAbonneeNaarBestand(std::vector<Abonnee 
         return;
     }
 
-        bestandSchrijven << L"\n" << newabonnee[0]->abonneeId << SCHEIDER
+        bestandSchrijven << newabonnee[0]->abonneeId << SCHEIDER
                   << newabonnee[0]->mail << SCHEIDER
                   << newabonnee[0]->gebruikersnaam << SCHEIDER
                   << newabonnee[0]->wachtwoord << SCHEIDER
                   << newabonnee[0]->locatie << SCHEIDER
                   << newabonnee[0]->krediet << SCHEIDER
-                  << newabonnee[0]->getRatingScore();
+                  << newabonnee[0]->getRatingScore() << L"\n";
 
     bestandSchrijven.close();
 }

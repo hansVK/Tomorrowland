@@ -8,6 +8,17 @@
 //#include "../Abonnee/Abonnee.h"
 //#include "../Park/Park.h"
 
+
+/*
+class Aanvraag {
+    std::wstring parkID;
+    std::wstring aanvraagStatus;
+    Datum* beginDatum;
+    Datum* eindDatum;
+    Abonnee* aangevraagdByAbonnee;
+*/
+
+
 class Park;
 class Abonnee;
 class Recensie {
